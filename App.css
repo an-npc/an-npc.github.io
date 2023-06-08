@@ -1,0 +1,249 @@
+/* OVERSEER */
+* {
+  background-color: #0a192f;
+  color: aliceblue;
+  margin: 5px 0px;
+}
+
+/* BeginScrn Sector */
+.beginBtn {
+  margin-top: 23%;
+  text-align: center;
+}
+
+.AboutScrn, .Skills, .Exp,
+.Projects {
+  padding-bottom: 2rem;
+}
+
+.beginBtn h5 {
+  margin: auto;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  font-size: 2.75vmin;
+}
+.beginBtn button {
+  box-shadow: 10px 10px #8ceeda;
+  background-color: white;
+  border-radius: 30px;
+  height: 20vmin;
+  width: 35vmin;
+}
+
+nav {
+  margin-left: 4.5vh;
+  margin-top: 20px;
+} 
+
+.router button {
+  border-style: solid;
+  border-radius: 7px;
+  border-color: #8ceeda;
+  width: 5rem;
+  height: 5rem;
+}
+
+.router button:hover {
+  border-style: solid;
+  border-radius: 7px;
+  background-color: #8ceeda;
+  border-color: #8ceeda;
+  width: 5rem;
+  height: 5rem;
+} 
+
+.router .nav .groupedBtns {
+  width:250px;
+}
+
+/* DIY */
+.container-md {
+  min-width: 4px;
+  min-height: min-content;
+  border-style: solid;
+  border-color: #8ceeda;
+  border-radius: 15px;
+  margin-bottom: 2vmax;
+  padding-top: 1.25vmax;
+  padding-left: 1.25vmax;
+  box-shadow: 12px 12px #8ceeda;
+}
+
+.vert-line {
+  margin-top: 1vh;
+  border-left: 2px solid #8ceeda;
+  padding-left: 1.25vmax;
+  margin-left: 1.5vmax;
+}
+
+.vert-line-p {
+  margin-top: 1vh;
+  border-left: 2px solid #8ceeda;
+  padding-left: 1.5vmax;
+  margin-left: 1vmax;
+}
+
+.padding {
+  padding-left: 25px;
+}
+
+.padding-top {
+  padding-top: 20px;
+}
+
+.padding-btm {
+  padding-bottom: 10px;
+}
+a {
+  background-color: transparent;
+}
+p::before {
+  content: "<p>";
+  font-size: 1.75vh;
+  color:hsl(300, 100%, 77%);
+}
+
+p::after {
+  content: "</p>";
+  font-size: 1.75vh;
+  color: violet;
+}
+
+p {
+  font-size: 2.15vh;
+  color: whitesmoke;
+}
+
+h1 {
+  font-size: 4vh;
+}
+
+h1::before {
+  content: "<h1>";
+  font-size: 70%;
+  color: violet;
+}
+
+h1::after {
+  content: "</h1>";
+  margin-left: 2vmin;
+  font-size: 60%;
+  color: violet;
+}
+h2 {
+  font-size: 2.75vh;
+}
+h3 {
+  font-size: 3vmax;
+}
+h4 {
+  font-size: 1.75vh;
+}
+h6 {
+  color: whitesmoke;
+  font-size: 2.25vh;
+}
+img {
+  height: 30vmax;
+  width: 30vmax;
+  border-radius: 20px;
+}
+footer {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.75vh;
+  background-image: linear-gradient(rgba(255, 0, 0, 0), #0a192f);
+  padding: 1px;
+  margin: auto;
+  color: azure;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+figure {
+  text-align: center;
+}
+
+figcaption {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2vh;
+}
+
+.shift-right {
+  margin-left: 15px;
+}
+
+.shift-left {
+  margin-right: 15px;
+}
+
+.inventory-item {
+  border: 3px solid #8ceeda;
+  border-radius: 10px;
+}
+
+.icon-import {
+  margin: 10px;
+  padding: 10px 20px;
+  width: 80px;
+  max-width: min-content;
+  height: 80px;
+  min-height: 80px;
+  max-height: min-content;
+  fill: aliceblue;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+li::before {
+  content: "▹";
+  color: #8ceeda;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+  font-size: 2.5vh;
+} 
+
+li {
+  list-style: none;
+  font-size: 1.75vh;
+}
+
+button.dropdown-item:hover {
+  background-color: rgb(190, 225, 255);
+  width: 160px;
+}
+
+button.dropdown-item:active {
+  color: black;
+  background-color: aliceblue;
+}
+
+#text-section {
+  min-width: 30rem;
+  margin: 10px;
+}
+
+#job {
+  min-width: 35rem;
+  padding:0.5rem 3rem;
+}
+
+#project {
+  min-width: 30rem;
+}
+#skill-sect {
+  max-width: 100rem;
+  min-width: 30rem;
+}
