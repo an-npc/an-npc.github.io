@@ -247,3 +247,7 @@ button.dropdown-item:active {
   max-width: 100rem;
   min-width: 30rem;
 }
+#pos {
+  margin-left: 1rem;
+  margin-right: 4rem;
+}
