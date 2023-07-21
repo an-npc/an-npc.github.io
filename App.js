@@ -89,7 +89,7 @@ class Skills extends React.Component {
             </h1>
           </header>
         </Row>
-        <Row>
+        <Row id = "pos">
           <Col>
             <article id="skill-sect" className="langs">
               <h2>inventory</h2>
